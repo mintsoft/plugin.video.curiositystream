@@ -133,6 +133,7 @@ class CuriosityStream(object):
                 raise CSAuthFailed(
                     "Please provide username and password in the profile settings"
                 )
+            self._session.headers.update({"User-Agent": "Mozilla/5.0"})
             response = self._session.post(
                 "{}login".format(self._base_url),
                 json={"email": self._username, "password": self._password},
