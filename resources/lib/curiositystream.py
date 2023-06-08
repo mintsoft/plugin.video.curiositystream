@@ -96,7 +96,7 @@ class CuriosityStream(object):
         self._load_session()
 
     def _save_session(self):
-        with open(self._session_file, "w") as fd:
+        with open(self._session_file, "wb") as fd:
             pickle.dump(
                 {
                     "headers": self._session.headers,
