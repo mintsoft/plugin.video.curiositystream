@@ -108,12 +108,9 @@ class Router(object):
         listing = [
             root_entry("watchlist", tr(30013)),
             root_entry("list_categories", tr(30014)),
-            root_entry("list_collections2", tr(30015)),
-            root_entry("history", tr(30016)),
             root_entry("list_popular", tr(30018)),
             root_entry("watching", tr(30019)),
             root_entry("recently_added", tr(30020)),
-            root_entry("recommended", tr(30021)),
             root_entry("search", tr(30022)),
         ]
         xbmcplugin.addDirectoryItems(self._plugin_handle, listing, len(listing))
