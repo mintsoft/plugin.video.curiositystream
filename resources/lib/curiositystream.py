@@ -109,7 +109,7 @@ class CuriosityStream(object):
 
     def _load_session(self):
         try:
-            with open(self._session_file, "r") as f:
+            with open(self._session_file, "rb") as f:
                 session = pickle.load(f)
                 print(session)
                 self._session.cookies = requests.utils.cookiejar_from_dict(
