@@ -18,6 +18,7 @@ The add-on only provides an interface to access CuriosityStream media from Kodi.
     <language>en</language>
     <platform>all</platform>
     <license>GPL-2.0-or-later</license>
+    <forum>https://forum.kodi.tv/showthread.php?tid=374677</forum>
     <website>https://github.com/mintsoft/plugin.video.curiositystream</website>
     <source>https://github.com/mintsoft/plugin.video.curiositystream</source>
     <news>
